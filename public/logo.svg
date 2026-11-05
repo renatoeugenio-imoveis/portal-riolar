@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 260" width="100%" height="100%">
+  <defs>
+    <linearGradient id="laranjaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF7A00" />
+      <stop offset="100%" stop-color="#E85000" />
+    </linearGradient>
+    <linearGradient id="azulGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14345C" />
+      <stop offset="100%" stop-color="#08182E" />
+    </linearGradient>
+    <filter id="sombraSuave" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#08182E" flood-opacity="0.12" />
+    </filter>
+  </defs>
+
+  <!-- ÍCONE MODERNO À ESQUERDA -->
+  <g transform="translate(15, 10)">
+    <!-- Sol Carioca sutil de fundo -->
+    <circle cx="105" cy="115" r="75" fill="#FFF3E8" />
+    
+    <!-- Montanha / Pão de Açúcar em gradiente -->
+    <path d="M 35 170 Q 75 90 115 125 Q 145 75 185 170 Z" fill="url(#azulGrad)" />
+    
+    <!-- Ondas do Mar Carioca -->
+    <path d="M 25 180 Q 60 160 105 180 T 185 180 Q 200 180 215 172 C 185 198 120 198 85 188 C 55 180 35 183 25 180 Z" fill="#FF7A00" />
+    <path d="M 40 196 Q 75 178 120 196 T 195 194 C 170 212 110 212 75 204 C 55 200 45 200 40 196 Z" fill="#0C2340" />
+    
+    <!-- Casa minimalista sobreposta em laranja -->
+    <path d="M 60 120 L 115 72 L 170 120 L 158 120 L 115 84 L 72 120 Z" fill="url(#laranjaGrad)" filter="url(#sombraSuave)" />
+    <rect x="150" y="78" width="12" height="24" fill="url(#laranjaGrad)" />
+  </g>
+
+  <!-- TEXTOS DA MARCA À DIREITA -->
+  <g transform="translate(245, 0)">
+    <!-- Nome Principal: RioLar -->
+    <text x="0" y="132" font-family="system-ui, -apple-system, &#39;Segoe UI&#39;, Roboto, sans-serif" font-weight="900" font-size="114" letter-spacing="-2px">
+      <tspan fill="url(#laranjaGrad)">Rio</tspan><tspan fill="url(#azulGrad)">Lar</tspan>
+    </text>
+
+    <!-- Linha Divisória de Alto Padrão -->
+    <rect x="2" y="152" width="630" height="4.5" fill="url(#laranjaGrad)" rx="2.5" />
+
+    <!-- Nome do Consultor com Força e Legibilidade Máxima -->
+    <text x="3" y="196" font-family="system-ui, -apple-system, &#39;Segoe UI&#39;, Roboto, sans-serif" font-weight="900" font-size="34" fill="#0C2340" letter-spacing="4px">
+      RENATO EUGENIO
+    </text>
+
+    <!-- Cargo / Registro com alta clareza -->
+    <text x="4" y="230" font-family="system-ui, -apple-system, &#39;Segoe UI&#39;, Roboto, sans-serif" font-weight="700" font-size="20" fill="#E85000" letter-spacing="3.5px">
+      CONSULTORIA IMOBILIÁRIA • CRECI-RJ 112.398
+    </text>
+  </g>
+</svg>
