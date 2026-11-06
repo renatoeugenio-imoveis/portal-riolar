@@ -310,7 +310,7 @@ export default function VitrineRioLar() {
           <p className="text-slate-500 max-w-xl mx-auto text-[11px] leading-relaxed">
             Consultoria e intermediação imobiliária especializada em lançamentos residenciais, avaliação de crédito Caixa Econômica Federal e uso do FGTS.
           </p>
-          <p className="text-slate-600 text-[10px] pt-4">© {new Date().getFullYear()} RioLar Imóveis. Todos os direitos reservados.</p>
+          <p className="text-slate-600 text-[10px] pt-4">© 2026 RioLar Imóveis. Todos os direitos reservados.</p>
         </div>
       </footer>
     </main>
